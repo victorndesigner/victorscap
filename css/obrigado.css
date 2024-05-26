@@ -10,7 +10,7 @@
 :root{
 	--bg-color: #1d1c1b;
 	--text-color: #fff;
-	--main-color: #d2025f;
+	--main-color: #303030;
 	--second-bg-color: #22211f;
 	--other-color: #858585;
 	--second-color: #1a1a1a;
@@ -527,6 +527,38 @@ header.sticky{
 	border-radius: 50%;
 	font-size: 25px;
 	color: var(--text-color);
+}
+.main{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    background: linear-gradient(135deg, rgb(19, 19, 19), rgb(24, 24, 24));
+    flex-direction: column;
+}
+.main p{
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+.text{
+    font-size: 45px;
+    color: white;
+    margin-bottom: 30px;
+}
+.paragrafo{
+    color: white;
+    margin-bottom: 50px;
+}
+.btn{
+    padding: 15px 55px;
+    background: white;
+    text-decoration: none;
+    color: black;
+    font-size: 18px;
+    transition: all 0.5s;
+}
+.btn:hover{
+    border-radius: 27px;
 }
 
 @media(max-width:1775px){

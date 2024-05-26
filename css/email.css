@@ -1,12 +1,12 @@
 /*email*/
 
-.email-section {
+.email {
     display: flex;
     align-items: center;
     justify-content: center;
     flex-direction: column;
     background: rgb(22, 22, 22);
-    width: 600px;
+    width: 780px;
     height: 580px;
     padding: 100px;
     border-radius: 15px;
@@ -15,12 +15,12 @@
     margin-top: 200px;
     box-shadow: rgba(31, 31, 31, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
 }
-.email-section h2{
+.email h2{
     color: #858585;
     font-size: 2.5rem;
     margin: 2rem;
 }
-.email-section form{
+.email form{
     display: flex;
     flex-direction: column;
     width: 100%;
@@ -65,75 +65,5 @@ form button{
 form button:hover{
     background: white;
     color: black;
-    border-radius: 27px;
-}
-.photo-upload {
-    margin-bottom: 20px;
-    text-align: center;
-    margin-top: 10px;
-}
-.photo-upload label {
-    color: #ffffff;
-    font-size: 17px;
-    margin-bottom: 5px;
-    text-align: center;
-    font-size: 15px;
-}
-.photo-upload input[type="file"] {
-    display: none;
-}
-.photo-upload .upload-button {
-    display: inline-block;
-    padding: 10px 20px;
-    background-color: #ffffff;
-    color: #222222;
-    border: none;
-    border-radius: 5px;
-    cursor: pointer;
-    transition: background-color 0.3s;
-}
-.photo-upload .upload-button:hover {
-    background-color: #ffffff;
-}
-.photo-upload label:hover {
-    background-color: #ff0606;
-}
-.photo-upload .icon {
-    font-size: 27px;
-    margin-right: 10px; 
-}
-
-/*pagina de obrigado*/
-
-.main{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    min-height: 100vh;
-    background: linear-gradient(135deg, rgb(19, 19, 19), rgb(24, 24, 24));
-    flex-direction: column;
-}
-.main p{
-    font-size: 20px;
-    margin-bottom: 20px;
-}
-.text{
-    font-size: 45px;
-    color: white;
-    margin-bottom: 30px;
-}
-.paragrafo{
-    color: white;
-    margin-bottom: 50px;
-}
-.btn{
-    padding: 15px 55px;
-    background: white;
-    text-decoration: none;
-    color: black;
-    font-size: 18px;
-    transition: all 0.5s;
-}
-.btn:hover{
     border-radius: 27px;
 }

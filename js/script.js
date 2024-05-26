@@ -24,8 +24,8 @@ ScrollReveal({
 	delay: 200,
 });
 
-ScrollReveal().reveal('.victorscap-text, .Habilidades-content, .mid-left', { origin: 'left'});
+ScrollReveal().reveal('.victorscap-text, .email-content, .habilidades-content, .mid-left', { origin: 'left'});
 ScrollReveal().reveal('.victorscap-img, .mid-right', { origin: 'right'});
-ScrollReveal().reveal('.scroll, .Portfolio-btn, .Valor-content', { origin: 'bottom'});
+ScrollReveal().reveal('.scroll, .portfolio-btn, .email-content, .valor-content', { origin: 'bottom'});
 ScrollReveal().reveal('.mid-text', { origin: 'top'});
-ScrollReveal().reveal('.Trabalhos-content, .Portfolio-content, .Contato-content', { origin: 'right'});
+ScrollReveal().reveal('.trabalhos-content, .portfolio-content, .email-content, .contato-content', { origin: 'right'});
