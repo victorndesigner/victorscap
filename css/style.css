@@ -504,7 +504,7 @@ header.sticky{
 	background: transparent;
 }
 
-.footer{
+.creditos{
 	padding: 15px 13%;
 	background: var(--second-bg-color);
 	display: flex;
@@ -536,7 +536,7 @@ header.sticky{
 	section{
 		padding: 90px 5% 80px;
 	}
-	.footer{
+	.creditos{
 		padding: 10px 5%;
 	}
 	header.sticky{
@@ -566,7 +566,7 @@ header.sticky{
 	section{
 		padding: 70px 3% 70px;
 	}
-	.footer{
+	.creditos{
 		padding: 10px 3%;
 	}
 	header.sticky{
