@@ -560,7 +560,36 @@ header.sticky{
 .btn:hover{
     border-radius: 27px;
 }
+.mainobg {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    background: linear-gradient(135deg, rgb(19, 19, 19), rgb(24, 24, 24));
+    flex-direction: column;
+    text-align: center;
+    padding: 0 20px;
+}
 
+.mainobg h1 {
+    font-size: 24px;
+    margin: 0 0 20px;
+}
+
+.mainobg p {
+    font-size: 20px;
+    margin: 0 0 20px;
+}
+
+.mainobg a {
+    font-size: 18px;
+    margin: 20px 0;
+    text-decoration: none;
+    color: #ffffff;
+    background-color: #333;
+    padding: 10px 20px;
+    border-radius: 5px;
+}
 @media(max-width:1775px){
 	header{
 		padding: 20px 5%;
